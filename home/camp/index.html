@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Pluvi|Campaign</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="cfg_campaign.css">
+  <link rel="stylesheet" href="cfg_segmented.css">
+  <link rel="stylesheet" href="cfg_ads.css">
+</head>
+
+<body>
+  <div class="menu">
+    <h2 style="text-align: left;margin-top: 0;">Criaçao de campanha</h2>
+  </div>
+  <main>
+
+    <!--conteudo compaign-->
+    <div class="campaign_cfg">
+      <h2 id="meta">Meta</h2>
+      <div id="metas">
+      <button class="items_metas" id="visits">
+        <h3>Visitas</h3>
+        <p>Atraia pessoas para o seu site</p>      
+      </button>    
+      <button class="items_metas" id="view">
+        <h3>Video View</h3>
+        <p>Atraia pessoas para assistir ao seu video</p>       
+      </button> 
+      <button class="items_metas">
+        <h3>Alcance</h3>
+        <p>Maior alcance e menor custo</p>    
+      </button> 
+      <button class="items_metas">
+        <h3>Vendas</h3>
+        <p>Atraia pessoas para comprar seus produtos  </p>  
+      </button> 
+      </div>
+      <h2 id="verba">Verba</h2>
+      <div id="money_d">
+        <input placeholder="Valor diario da campanha." type="number">
+      </div>
+
+    </div>
+
+    <!--conteudo segmented-->
+    <div class="segmented_cfg">
+      <h2>Localizaçao</h2>
+      <input type="text" placeholder="localizações">
+      <h2>Idioma</h2>
+      <input type="text" placeholder="idiomas">
+      <h2>Categoria</h2>
+      <input type="text" placeholder="categorias">
+      <h2>Palavra Chave</h2>
+      <textarea row="15" cols="50">Palavras chave</textarea>
+    </div>
+
+    <!--conteudo ads-->
+    <div class="ads_cfg">
+      <div id="cfg">
+        <h2>Imagem 1</h2>
+        <label for="upload" class="custom-upload" id="img1">
+          <span id="msg_i">+</span>
+        </label>
+        <input id="upload" type="file" accept="image/*" style="display: none;" onchange="previewImage(event)">
+
+        <h2>Imagem 2 (opcional)</h2>
+        <label for="upload" class="custom-upload" style="height: 100px;line-height: 90px;">
+          <span>+</span>
+        </label>
+        <input id="upload1" type="file" accept="image/*" style="display: none;">
+
+        <input class="t-u_ads" type="text" placeholder="Title">
+        <textarea class="t-u_ads" placeholder="Description"></textarea>
+        <input class="t-u_ads" type="url" placeholder="End Url">
+      </div>
+      <div id="preview">
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Project -->
+  <script src="main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

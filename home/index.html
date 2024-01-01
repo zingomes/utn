@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Pluvi|Home</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="menu_lateral.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menu_campaign.css">
+  <style>
+    #add_ca {
+      font-size: 26px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: 15px;
+      margin-right: 20px;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="menu">
+    <h1 style="text-align: center;">Pluv <span id="title">Ads</span></h1>
+    <span><ion-icon name="add-circle-outline" id="add_ca"></ion-icon></span>
+  </div>
+  <main>
+    <nav class="navigation">
+      <a href="#">
+        <ion-icon name="list-outline" id="list_icon"></ion-icon>
+      </a>
+      <ul>
+        <li class="list">
+          <a href="#">
+            <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+            <span class="title">Home</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#">
+            <span class="icon"><ion-icon name="link-outline"></ion-icon></span>
+            <span class="title">Dominios</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#">
+            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+            <span class="title">Segurança</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+
+    <!--conteudo home-->
+    <div class="infos">
+      <div class="items_info">
+        <h3>Creditos</h3>      
+      </div>    
+      <div class="items_info">
+        <h3>Gasto Hoje</h3>      
+      </div> 
+      <div class="items_info">
+        <h3>Visualizaçoes</h3>      
+      </div> 
+      <div class="items_info">
+        <h3>Impressões</h3>      
+      </div> 
+    </div>
+
+    <div class="menu_campaign">
+      <div id="campaign_bar">
+        <nav>
+          <a href="#" class="ac">Campanha</a>
+          <a href="#" class="ac">Grupo de anuncio</a>
+          <a href="#" class="ac">Anuncio</a>
+        </nav>
+        <div>
+          <input type="text" placeholder="Procure por ID ou Nome">
+          <button id="b1">Filtros</button>
+          <a id="b2" href="camp/index.html">Criar</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Project -->
+  <script src="main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

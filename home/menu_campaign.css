@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,900;1,600;1,700&display=swap');
+
+:root {
+  --main-color:  rgb(28, 107, 233);
+  --sec-color:  rgb(255, 242, 63);
+  --white-dr:  rgb(244, 244, 244);
+}
+
+.menu_campaign {
+  position: absolute;
+  background-color: white;
+  left: 115px;
+  top: 215px;
+  width: 800px;
+  height: 200px;
+  margin: 0;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0.1px 0.1px 2px black;
+}
+
+.menu_campaign #campaign_bar {
+  background-color: antiquewhite;
+  height: 40px;
+  width: 100%;
+  padding-top: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: space;
+}
+
+.menu_campaign #campaign_bar nav .ac {
+  text-decoration: none;
+  color: black;
+  background-color:  rgb(244, 244, 244);
+  padding: 13px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  
+}
+
+.menu_campaign #campaign_bar > nav {
+  margin-left: 15px;
+  background-color:  rgb(244, 244, 244);
+  height: 15px;
+}
+
+.menu_campaign #campaign_bar > div > * {
+  margin-left: 20px;
+}
+
+.menu_campaign #campaign_bar > div {
+  height: 100%;
+}
+.menu_campaign #campaign_bar > div > input {
+  border-radius: 5px;
+  outline: None;
+  padding: 7px;
+  border: None;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+.menu_campaign #campaign_bar > div > button#b1 {
+  padding: 7px;
+  width: 70px;
+  border-radius: 3px;
+  background-color:  var(--main-color);
+  border: None;
+  color: black;
+  text-decoration: wavy;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.menu_campaign #campaign_bar > div > a#b2 {
+  padding: 7px;
+  width: 70px;
+  border-radius: 3px;
+  background-color:  var(--sec-color);
+  border: None;
+  color: black;
+  text-decoration: wavy;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
